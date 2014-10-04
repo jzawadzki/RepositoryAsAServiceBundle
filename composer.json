@@ -1,0 +1,23 @@
+{
+    "name":        "jzawadzki/RepositoryAsAServiceBundle",
+    "description": "Symfony2 Bundle which register all repositories found as services",
+    "keywords":    ["symfony2", "repository", "service", "bundle"],
+    "homepage":    "https://github.com/jzawadzki/RepositoryAsAServiceBundle",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Jerzy Zawadzki",
+            "homepage": "http://github.com/jzawadzki"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony":">=2.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "JZ\\RepositoryAsAServiceBundle\\": "src"
+        }
+    }
+}
