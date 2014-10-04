@@ -1,5 +1,5 @@
 {
-    "name":        "jzawadzki/RepositoryAsAServiceBundle",
+    "name":        "jzawadzki/repository-as-a-service-bundle",
     "description": "Symfony2 Bundle which register all repositories found as services",
     "keywords":    ["symfony2", "repository", "service", "bundle"],
     "homepage":    "https://github.com/jzawadzki/RepositoryAsAServiceBundle",
