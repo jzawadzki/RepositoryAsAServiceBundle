@@ -47,9 +47,10 @@ class RegisterRepositoriesPass implements CompilerPassInterface
                 } else {
                     $definition
                         ->setFactoryService('doctrine.orm.entity_manager')
-                        ->setFactoryMethod('getRepository')
-                        ->addArgument($m->getName());
+                        ->setFactoryMethod('getRepository');
+
                 }
+                $definition->addArgument($m->getName());
                 $container->setDefinition($name, $definition);
             }
         }
